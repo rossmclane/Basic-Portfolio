@@ -15,7 +15,7 @@ body {
     background-color: rgb(56, 168, 153);
     font-size: 30px;
     padding: 30px 10px 30px 10px;
-    margin: 0;
+    /* margin: 0; */
     float: left;
     margin-left: 150px;
     color: white;
@@ -45,7 +45,7 @@ header {
 .about-me {
     background-color: white;
     border: solid rgb(235, 234, 234) 1px;
-    margin: 50px 240px 0px 240px;
+    margin: 50px 240px 100px 240px;
     padding: 10px;
 }
 
@@ -67,6 +67,35 @@ h1 {
 
 p {
     margin-top: 0px;
+}
+
+footer {
+    width: 100%;
+    background-color: gray;
+    margin-top: 30px;
+    padding: 25px;
+    bottom: 0px;
+    position: fixed;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0px;
+    right: 50%;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.footer-decoration {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(56, 168, 153);
+    width: 100%;
+    height: 5px;
 }
 
 /* ------------- Gallery Specific -------------  */
@@ -93,12 +122,14 @@ p {
 
 .parent .overlay {
     position: absolute;
-    top: 150px;
+    top: 70%;
     left: 0px;
     text-align: center;
     color: white;
-    width: 100%;
     background-color: rgb(56, 168, 153);
+    padding:10px;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 /* ------------- Form Specific -------------  */
@@ -112,7 +143,7 @@ label, input {
     margin: 10px 0px 10px 0px;
 }
 
-.container {
+.form {
     padding: 20px;
 }
 
@@ -123,4 +154,8 @@ label, input {
 .submit {
     float: left;
     width: 100px;
+    border: rgb(236, 228, 228) solid 1px;
+    background-color: rgb(56, 168, 153);
+    color: white;
+    font-family: inherit;
 }
